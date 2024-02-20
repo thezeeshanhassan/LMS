@@ -3,6 +3,45 @@ body {
   padding: 0px;
 }
 
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
 .main-heading {
   font-size: 26px;
 }
@@ -16,8 +55,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  /* padding-left: 15%; */
-  width: 60vw;
+  padding-left: 15%;
+  width: 50vw;
   height: 100vh;
 
 }
@@ -122,7 +161,7 @@ a {
 
 @media (max-width: 991px) {
   .input {
-    width: 92%;
+    width: 85%;
     margin: 2% 0;
     font-size: 14px;
   }
@@ -139,6 +178,7 @@ a {
 @media (max-width:991px) {
   .sub-script {
     font-size: 12px;
+    padding: 0;
   }
 }
 
@@ -151,8 +191,10 @@ a {
 @media (max-width:991px) {
   .btn {
     font-size: 14px;
-    width: 100%;
+    width: 90%;
   }
+
+
 }
 
 @media (max-width:991px) {
