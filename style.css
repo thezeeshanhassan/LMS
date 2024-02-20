@@ -1,79 +1,169 @@
-body{
-    margin: 0px;
-    padding: 0px;
-}
-.inner-div1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    padding-left: 10%;
-    width: 60vw;
-    height: 100vh;
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
-.main-right-img{
-    width: 40vw;
-    height: 100vh;
-    background-image: url(./Resources/AKhuwat-University-Kasur.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vh;
+.main-heading {
+  font-size: 26px;
 }
-.outer-div{
-    display: flex;
+
+.sub-script {
+  font-size: 13px;
 }
+
+.inner-div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding-left: 15%;
+  width: 60vw;
+  height: 100vh;
+
+}
+
+.outer-div {
+  display: flex;
+}
+
 .input {
-    border: 2px solid transparent;
-    height: 2.5em;
-    padding-left: 0.8em;
-    outline: none;
-    overflow: hidden;
-    background-color: #F3F3F3;
-    border-radius: 10px;
-    transition: all 0.5s;
-    width: 60%;
-    margin: 2% 0% 2% 0%;
-  }
-  
-  .input:hover,
-  .input:focus,
-  .user-logo:hover {
-    border: 2px solid #108A00;
-    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
-    background-color: white;
-  }  
+  border: 2px solid transparent;
+  height: 3em;
+  padding-left: 0.8em;
+  outline: none;
+  font-size: 15px;
+  overflow: hidden;
+  background-color: #ede6e6;
+  border-radius: 10px;
+  transition: all 0.5s;
+  width: 50%;
+  margin: 2% 0% 2% 0%;
+}
 
-  .white-coloured{
-    color: white;
-  }
-  .user-logo{
-    background-color: white;
-    border-radius: 5rem;
-    padding: 1%;
-    width: 3%;
-    border: 2px solid transparent;
-    outline: none;
-    overflow: hidden;
-    background-color: #F3F3F3;
-    transition: all 0.5s;
-  }
-  .btn{
-    border: 2px solid transparent;
-    /* width: 15em; */
-    height: 2.5em;
-    padding-left: 0.8em;
-    outline: none;
-    overflow: hidden;
-    color: white;
-    background-color: #108A00;
-    border-radius: 10px;
-    transition: all 0.5s;
-    width: 40%;
-  }
+.input:hover,
+.input:focus {
+  border: 2px solid #108A00;
+  box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+  background-color: white;
+}
 
-  .form-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
+.white-coloured {
+  color: white;
+}
+
+.btn {
+  height: 3em;
+  color: white;
+  font-size: 15px;
+  background-color: #108A00;
+  border-radius: 10px;
+  transition: all 0.5s;
+  width: 52%;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+}
+
+.btn:hover {
+
+  transition: 0.3s ease-in-out;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.center {
+  margin-bottom: 20px;
+}
+
+.sign-in-div {
+  padding-bottom: 3%;
+}
+
+.akhuwat-logo-div {
+  display: flex;
+  justify-content: Left;
+  align-items: center;
+  margin: 0px 5px 0px 5px;
+  /* padding-left: 15px; */
+  padding-bottom: -5px;
+
+}
+
+.akhuwat-logo {
+  height: 20px;
+  height: 20px;
+}
+
+a {
+  padding: 2% 0% 2% 0%;
+  font-weight: bold;
+  color: #108A00;
+}
+
+.sub-script {
+  color: #108A00;
+  font-size: 15px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.akhuwat-logo {
+  height: 40px;
+  width: 40px;
+}
+
+@media (max-width: 991px) {
+  .input {
+    width: 92%;
+    margin: 2% 0;
+    font-size: 14px;
   }
+}
+
+
+@media (max-width: 991px) {
+  .label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width:991px) {
+  .sub-script {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:991px) {
+  .main-heading {
+    font-size: 21px;
+  }
+}
+
+@media (max-width:991px) {
+  .btn {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+
+@media (max-width:991px) {
+  a {
+    font-size: 14px;
+  }
+}
+
+/* @media (max-width:991) {
+  .akhuwat-logo {
+    height: 12px;
+    width: 19px;
+  }
+} */
