@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  padding-left: 15%;
+  /* padding-left: 15%; */
   width: 60vw;
   height: 100vh;
 
@@ -167,3 +167,116 @@ a {
     width: 19px;
   }
 } */
+
+
+/* NewCSS */
+
+
+
+.outer-div {
+  display: flex;
+  height: 100vh;
+  flex-direction: column-reverse;
+}
+
+
+.main-left-div {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-right-img {
+  position: relative;
+  width: 100%;
+  height: 25vh;
+
+}
+
+.main-right-img>h1 {
+  z-index: 2;
+}
+
+.main-right-img:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  z-index: 0;
+  background-image: url("./Resources/AKhuwat-University-Kasur.jpg");
+  background-size: 340px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: rgba(34, 32, 33, 1);
+}
+
+
+
+.main-right-img:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 41%;
+  height: 100%;
+  background: rgb(80, 80, 80);
+  z-index: 0;
+  background: linear-gradient(90deg, rgba(80, 80, 80, 1) 0%, rgba(34, 32, 33, 1) 100%);
+}
+
+
+/* FOR PC SCREEN */
+
+@media only screen and (min-width: 991px) {
+  .outer-div {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+  }
+
+  .main-right-img {
+    height: 100vh;
+    width: 800px;
+    background-color: #150c96;
+    background-image: url("./Resources/test.jpg");
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.411);
+    /* background-position: top right; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+  }
+
+  .main-right-img>h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3.7rem;
+    font-weight: 700;
+    padding: 0 10px 0 50px;
+
+  }
+
+  .main-left-div {
+    /* width: 70%; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-right-img:before {
+    display: none;
+  }
+
+  .main-right-img:after {
+    display: none;
+
+  }
+
+}
