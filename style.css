@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.inner-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 10%;
+    width: 60vw;
+    height: 100vh;
+}
+
+.main-right-img{
+    width: 40vw;
+    height: 100vh;
+    background-image: url(./Resources/AKhuwat-University-Kasur.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+}
+.outer-div{
+    display: flex;
+}
+.input {
+    border: 2px solid transparent;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+    width: 60%;
+    margin: 2% 0% 2% 0%;
+  }
+  
+  .input:hover,
+  .input:focus,
+  .user-logo:hover {
+    border: 2px solid #108A00;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  }  
+
+  .white-coloured{
+    color: white;
+  }
+  .user-logo{
+    background-color: white;
+    border-radius: 5rem;
+    padding: 1%;
+    width: 3%;
+    border: 2px solid transparent;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    transition: all 0.5s;
+  }
+  .btn{
+    border: 2px solid transparent;
+    /* width: 15em; */
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    color: white;
+    background-color: #108A00;
+    border-radius: 10px;
+    transition: all 0.5s;
+    width: 40%;
+  }
+
+  .form-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
