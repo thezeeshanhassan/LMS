@@ -3,17 +3,7 @@ body {
   padding: 0px;
 }
 
-.poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
 
-.poppins-extralight {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
 
 .poppins-light {
   font-family: "Poppins", sans-serif;
@@ -44,10 +34,15 @@ body {
 
 .main-heading {
   font-size: 26px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #181C32;
+
 }
 
 .sub-script {
   font-size: 13px;
+
 }
 
 .inner-div1 {
@@ -72,10 +67,10 @@ body {
   outline: none;
   font-size: 15px;
   overflow: hidden;
-  background-color: #ede6e6;
+  background-color: #E7E9EB;
   border-radius: 10px;
   transition: all 0.5s;
-  width: 50%;
+  width: 60%;
   margin: 2% 0% 2% 0%;
 }
 
@@ -97,7 +92,7 @@ body {
   background-color: #108A00;
   border-radius: 10px;
   transition: all 0.5s;
-  width: 52%;
+  width: 62%;
   cursor: pointer;
   border: 2px solid #ffffff;
   box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
@@ -112,7 +107,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  /* align-items: left; */
 }
 
 .center {
@@ -147,11 +142,17 @@ a {
 .sub-script {
   color: #108A00;
   font-size: 15px;
+  /* padding: 0;
+  margin: 0; */
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .label {
   font-weight: bold;
   font-size: 15px;
+  color: #181C32;
+
 }
 
 .akhuwat-logo {
@@ -159,57 +160,49 @@ a {
   width: 40px;
 }
 
-@media (max-width: 991px) {
+@media only screen and (max-width: 891px) {
   .input {
     width: 85%;
     margin: 2% 0;
     font-size: 14px;
   }
-}
 
-
-@media (max-width: 991px) {
   .label {
     font-size: 14px;
     font-weight: bold;
   }
-}
 
-@media (max-width:991px) {
   .sub-script {
     font-size: 12px;
     padding: 0;
   }
-}
 
-@media (max-width:991px) {
+  .inner-div1 {
+    padding: 0;
+
+  }
+
   .main-heading {
     font-size: 21px;
   }
-}
 
-@media (max-width:991px) {
   .btn {
     font-size: 14px;
     width: 90%;
   }
 
-
-}
-
-@media (max-width:991px) {
   a {
     font-size: 14px;
   }
 }
 
-/* @media (max-width:991) {
-  .akhuwat-logo {
-    height: 12px;
-    width: 19px;
-  }
-} */
 
+@media only screen and (max-width: 550px) {
+  .inner-div1 {
+    padding: 0;
+    width: 90%;
+  }
+}
 
 /* NewCSS */
 
@@ -247,11 +240,11 @@ a {
   position: absolute;
   top: 0;
   right: 0;
-  width: 60%;
+  width: 100%;
   height: 100%;
   z-index: 0;
-  background-image: url("./Resources/AKhuwat-University-Kasur.jpg");
-  background-size: 340px;
+  background-image: url("./Resources/akhuwatPic.webp");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: right;
   background-color: rgba(34, 32, 33, 1);
@@ -264,7 +257,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 41%;
+  width: 0%;
   height: 100%;
   background: rgb(80, 80, 80);
   z-index: 0;
@@ -274,7 +267,7 @@ a {
 
 /* FOR PC SCREEN */
 
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 891px) {
   .outer-div {
     display: flex;
     height: 100vh;
@@ -287,12 +280,12 @@ a {
     background-color: #150c96;
     background-image: url("./Resources/test.jpg");
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.411);
-    /* background-position: top right; */
+
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    /* border-radius: 50px 0 0 50px; */
 
   }
 
