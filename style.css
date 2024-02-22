@@ -125,12 +125,14 @@ body {
   margin: 0px 5px 0px 5px;
   /* padding-left: 15px; */
   padding-bottom: -5px;
+  /* background-color: red; */
 
 }
 
 .akhuwat-logo {
-  height: 20px;
-  height: 20px;
+  height: 70px;
+  height: 70px;
+
 }
 
 a {
@@ -152,13 +154,11 @@ a {
   font-weight: bold;
   font-size: 15px;
   color: #181C32;
+  letter-spacing: .3px;
 
 }
 
-.akhuwat-logo {
-  height: 40px;
-  width: 40px;
-}
+
 
 @media only screen and (max-width: 891px) {
   .input {
@@ -201,6 +201,14 @@ a {
   .inner-div1 {
     padding: 0;
     width: 90%;
+  }
+
+  .akhuwat-logo {
+    height: 40px;
+    height: 50px;
+    margin-right: 5px;
+    margin-left: -5px;
+
   }
 }
 
