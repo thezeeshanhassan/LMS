@@ -1,0 +1,112 @@
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.side-bar {
+    background-color: #2D2D31;
+    width: 16vw;
+    height: 95vh;
+    border-radius: 5px;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+}
+
+.logo {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 1em;
+}
+
+.side-bar-item1 {
+    display: flex;
+    justify-content: left;
+    /* margin-left: 1em; */
+
+    align-items: center;
+    padding-left: 1.5em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.342);
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.side-bar-item1:hover {
+    background-color: #108A00;
+    transition: background-color 0.3s ease;
+}
+
+.side-bar-item2,
+.side-bar-item3,
+.side-bar-item4,
+.side-bar-item5,
+.side-bar-item6 {
+    margin-top: 1em;
+    margin-left: 1em;
+    padding-left: 1.5em;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* background-color: blue; */
+    width: 78%;
+    height: 7%;
+}
+
+.side-bar-item2:hover,
+.side-bar-item3:hover,
+.side-bar-item4:hover,
+.side-bar-item5:hover,
+.side-bar-item6:hover {
+    padding-left: 1.5em;
+    margin-left: 1em;
+    margin-top: 1em;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 78%;
+    height: 7%;
+    cursor: pointer;
+    background-color: #525257;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.side-bar-item2:active,
+.side-bar-item3:active,
+.side-bar-item4:active,
+.side-bar-item5:active,
+.side-bar-item6:active {
+    background-color: #108A00;
+}
+
+.side-bar-heading {
+    color: white !important;
+}
